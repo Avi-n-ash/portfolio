@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avinash Kumar Tripathy | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="#hero" class="nav-logo">AKT<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <!-- Animated blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Floating particles -->
+    <div class="hero-particles">
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Avinash Kumar<br/><span>Tripathy</span></h1>
+        <div class="hero-typing-wrapper">
+          <span class="hero-typing" id="typing-text"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-tagline">8+ years crafting scalable full-stack applications across Finance, FinTech &amp; Media.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Work</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat" data-count="8" data-suffix="+">
+            <h3 class="count-up">8+</h3>
+            <p>Years Exp.</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat" data-count="5" data-suffix="+">
+            <h3 class="count-up">5+</h3>
+            <p>Projects</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat" data-count="3" data-suffix="">
+            <h3 class="count-up">3</h3>
+            <p>Companies</p>
+          </div>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/avinash-kumar-tripathy-41b28811a/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:avinashtripathy22@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/Avi-n-ash" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <span class="social-separator"></span>
+          <a href="asset/Avinash Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-ghost-sm"><i class="fas fa-file-pdf"></i> Download CV</a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="hero-image-ring"></div>
+        <div class="hero-image-container">
+          <img src="asset/profile-suit.jpg" alt="Avinash Kumar Tripathy" class="hero-profile"/>
+        </div>
+        <div class="floating-badge badge-1">
+          <i class="fab fa-java"></i> Spring Boot
+        </div>
+        <div class="floating-badge badge-2">
+          <i class="fab fa-react"></i> React JS
+        </div>
+        <div class="floating-badge badge-3">
+          <i class="fas fa-cloud"></i> AWS
+        </div>
+        <div class="floating-badge badge-4">
+          <i class="fas fa-database"></i> PostgreSQL
+        </div>
+        <div class="floating-badge badge-5">
+          <i class="fab fa-docker"></i> Docker
+        </div>
+        <div class="floating-badge badge-6">
+          <i class="fas fa-robot"></i> Gen AI
+        </div>
+        <div class="floating-badge badge-7">
+          <i class="fas fa-code-branch"></i> Microservices
+        </div>
+        <div class="floating-badge badge-8">
+          <i class="fab fa-git-alt"></i> Git
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="section-inner reveal">
+      <div class="section-label">Who I Am</div>
+      <h2 class="section-title">About <span>Me</span></h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a <strong>Full-Stack Developer</strong> with over 8 years of experience building enterprise-grade web applications. I specialize in <strong>Java / Spring Boot</strong> on the backend and <strong>React JS</strong> on the frontend, delivering end-to-end solutions for clients in Banking, FinTech, and Media.</p>
+          <p>I graduated with a B.Tech in Computer Science from <strong>SRM University</strong> (CGPA: 9.42) and have since worked with companies like <strong>S&amp;P Global</strong>, <strong>LTIMindtree</strong>, and <strong>Aspire Systems</strong> — building RESTful APIs, microservices, and rich user interfaces.</p>
+          <p>I'm passionate about <strong>AI tooling</strong>, clean architecture, and writing code that scales. I hold all <strong>3 Gen AI belt certifications</strong> and actively use tools like GitHub Copilot, RAG, and Agentic AI in my workflow.</p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-award"></i>
+              <span>GSD Award Q2-24 &mdash; S&amp;P Global</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-brain"></i>
+              <span>Gen AI Certified &mdash; White · Yellow · Green Belt</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-star"></i>
+              <span>Role Star Award &mdash; Outstanding Performance</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-shield-alt"></i>
+              <span>Led KYC &amp; AML compliance implementation</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-rocket"></i>
+              <span>Reduced feature delivery time by 40% with AI tooling</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card-grid">
+          <div class="info-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h4>Education</h4>
+            <p>B.Tech – CSE</p>
+            <small>SRM University, 2017 | CGPA: 9.42</small>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-briefcase"></i>
+            <h4>Experience</h4>
+            <p>8+ Years</p>
+            <small>Full-Stack Developer</small>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>Location</h4>
+            <p>Gurgaon, India</p>
+            <small>Open to Remote</small>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <p class="small-text">avinashtripathy22</p>
+            <small>@gmail.com</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section services-section">
+    <div class="section-inner">
+      <div class="section-label reveal">What I Offer</div>
+      <h2 class="section-title reveal">My <span>Services</span></h2>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-server"></i></div>
+          <h3>Backend Development</h3>
+          <p>Building robust, scalable REST APIs and microservices with Java &amp; Spring Boot — from architecture through cloud deployment.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check-circle"></i> RESTful API Design &amp; Versioning</li>
+            <li><i class="fas fa-check-circle"></i> Microservices Architecture</li>
+            <li><i class="fas fa-check-circle"></i> Database Design &amp; Optimization</li>
+            <li><i class="fas fa-check-circle"></i> Security &amp; JWT Authentication</li>
+          </ul>
+          <div class="service-tech">
+            <span>Java</span><span>Spring Boot</span><span>Docker</span><span>PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card-featured reveal">
+          <div class="service-badge">Core Expertise</div>
+          <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>Full-Stack Engineering</h3>
+          <p>End-to-end product delivery — pixel-perfect React UIs connected to resilient Spring Boot backends, deployed on AWS with CI/CD pipelines.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check-circle"></i> React JS Frontend Development</li>
+            <li><i class="fas fa-check-circle"></i> Spring Boot Backend APIs</li>
+            <li><i class="fas fa-check-circle"></i> AWS Cloud Deployment</li>
+            <li><i class="fas fa-check-circle"></i> Performance &amp; Scalability</li>
+          </ul>
+          <div class="service-tech">
+            <span>React</span><span>Spring</span><span>AWS</span><span>TypeScript</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-robot"></i></div>
+          <h3>AI Integration</h3>
+          <p>Embedding Generative AI, RAG pipelines, and agentic workflows into enterprise apps to supercharge developer productivity and UX intelligence.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check-circle"></i> Gen AI Feature Integration</li>
+            <li><i class="fas fa-check-circle"></i> RAG Pipeline Design</li>
+            <li><i class="fas fa-check-circle"></i> GitHub Copilot Workflows</li>
+            <li><i class="fas fa-check-circle"></i> Agentic AI Systems</li>
+          </ul>
+          <div class="service-tech">
+            <span>Copilot</span><span>RAG</span><span>LLM APIs</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="section-inner reveal">
+      <div class="section-label">What I Know</div>
+      <h2 class="section-title">Technical <span>Skills</span></h2>
+
+      <div class="proficiency-grid reveal">
+        <div class="proficiency-item">
+          <div class="proficiency-header"><span><i class="fab fa-java"></i> Java / Spring Boot</span><span class="proficiency-pct">95%</span></div>
+          <div class="proficiency-bar"><div class="proficiency-fill" data-width="95"></div></div>
+        </div>
+        <div class="proficiency-item">
+          <div class="proficiency-header"><span><i class="fab fa-react"></i> React JS</span><span class="proficiency-pct">85%</span></div>
+          <div class="proficiency-bar"><div class="proficiency-fill" data-width="85"></div></div>
+        </div>
+        <div class="proficiency-item">
+          <div class="proficiency-header"><span><i class="fab fa-aws"></i> AWS</span><span class="proficiency-pct">78%</span></div>
+          <div class="proficiency-bar"><div class="proficiency-fill" data-width="78"></div></div>
+        </div>
+        <div class="proficiency-item">
+          <div class="proficiency-header"><span><i class="fab fa-docker"></i> Docker &amp; Microservices</span><span class="proficiency-pct">82%</span></div>
+          <div class="proficiency-bar"><div class="proficiency-fill" data-width="82"></div></div>
+        </div>
+        <div class="proficiency-item">
+          <div class="proficiency-header"><span><i class="fas fa-database"></i> PostgreSQL / MongoDB</span><span class="proficiency-pct">80%</span></div>
+          <div class="proficiency-bar"><div class="proficiency-fill" data-width="80"></div></div>
+        </div>
+        <div class="proficiency-item">
+          <div class="proficiency-header"><span><i class="fas fa-robot"></i> Gen AI / LLMs</span><span class="proficiency-pct">72%</span></div>
+          <div class="proficiency-bar"><div class="proficiency-fill" data-width="72"></div></div>
+        </div>
+      </div>
+
+      <h3 class="skills-subheading reveal">All Skill Areas</h3>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span class="tag">Java EE</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Spring MVC</span>
+            <span class="tag">Hibernate</span>
+            <span class="tag">RESTful APIs</span>
+            <span class="tag">Microservices</span>
+            <span class="tag">Servlets / JSP</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="tag">React JS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">jQuery</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-database"></i></div>
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Oracle 11g</span>
+            <span class="tag">Spring Data JPA</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+          <h3>DevOps &amp; Tools</h3>
+          <div class="skill-tags">
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Git</span>
+            <span class="tag">SVN</span>
+            <span class="tag">Tomcat</span>
+            <span class="tag">JBoss</span>
+            <span class="tag">WebSphere</span>
+            <span class="tag">Maven</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-robot"></i></div>
+          <h3>AI Tools</h3>
+          <div class="skill-tags">
+            <span class="tag tag-ai">GitHub Copilot</span>
+            <span class="tag tag-ai">Spark Assist</span>
+            <span class="tag tag-ai">RAG</span>
+            <span class="tag tag-ai">Agentic AI</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>IDEs &amp; Platforms</h3>
+          <div class="skill-tags">
+            <span class="tag">IntelliJ IDEA</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Eclipse / STS</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Alfresco</span>
+            <span class="tag">Mambu</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <div class="section-label">What I've Built</div>
+      <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80" alt="CCP – Content Creation Platform" loading="lazy"/>
+            <div class="project-overlay">
+              <span class="project-tag">React JS</span>
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">AWS</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-number">01</span>
+              <h3>CCP – Content Creation Platform</h3>
+            </div>
+            <p>A comprehensive CMS empowering users to create, publish, distribute, and manage articles, blog posts, and headlines. Built for scale with a team of 10 at <strong>S&amp;P Global</strong>.</p>
+            <ul class="project-points">
+              <li>Developed RESTful APIs &amp; responsive UI</li>
+              <li>Led code reviews &amp; story analysis</li>
+              <li>Resolved production bugs with root cause analysis</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=80" alt="BiDB Customer Onboarding" loading="lazy"/>
+            <div class="project-overlay">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Spring</span>
+              <span class="project-tag">Firebase</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-number">02</span>
+              <h3>BiDB – Customer Onboarding</h3>
+            </div>
+            <p>A fintech onboarding system for financial institutions to collect client data and conduct KYC, AML, and identity verification checks. Delivered at <strong>LTIMindtree</strong>.</p>
+            <ul class="project-points">
+              <li>Implemented PII &amp; Step-Up authentication modules</li>
+              <li>Integrated Mambu core banking APIs</li>
+              <li>End-to-end feature development &amp; testing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80" alt="DeliveryPedia" loading="lazy"/>
+            <div class="project-overlay">
+              <span class="project-tag">Java EE</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">Tomcat</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-number">03</span>
+              <h3>DeliveryPedia</h3>
+            </div>
+            <p>A project management system tracking SOW, milestones, revenue forecasting, and project metrics — enabling management to make data-driven decisions.</p>
+            <ul class="project-points">
+              <li>Fixed UI &amp; functional module issues</li>
+              <li>Provided technical support &amp; mentoring</li>
+              <li>Researched new technology integrations</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80" alt="TEJAS-MPI ISV Accelerator" loading="lazy"/>
+            <div class="project-overlay">
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">Microservices</span>
+              <span class="project-tag">MongoDB</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-number">04</span>
+              <h3>TEJAS-MPI (ISV Accelerator)</h3>
+            </div>
+            <p>An evaluation-as-a-service marketing tool helping clients choose build tools, CI pipelines, and tech stacks for their projects. Built on Microservices architecture.</p>
+            <ul class="project-points">
+              <li>Built RESTful APIs with Spring Boot</li>
+              <li>Used Spring Data JPA with MongoDB</li>
+              <li>Implemented Microservices pattern with Docker</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=600&q=80" alt="Banque Du Caire" loading="lazy"/>
+            <div class="project-overlay">
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">Oracle Flexcube</span>
+              <span class="project-tag">PostgreSQL</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-number">05</span>
+              <h3>Banque Du Caire (Egypt)</h3>
+            </div>
+            <p>Core banking solution for an Egyptian bank using Oracle Flexcube, including Retail, Corporate apps, Back-Office management, and a CMS website.</p>
+            <ul class="project-points">
+              <li>Created RESTful APIs with Spring Boot</li>
+              <li>Set up production environment &amp; deployments</li>
+              <li>Resolved critical production issues</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&q=80" alt="Gen AI Dev Accelerator" loading="lazy"/>
+            <div class="project-overlay">
+              <span class="project-tag">Gen AI</span>
+              <span class="project-tag">RAG</span>
+              <span class="project-tag">Spring Boot</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-number">06</span>
+              <h3>Gen AI Dev Accelerator</h3>
+            </div>
+            <p>An internal AI-assisted toolchain leveraging RAG pipelines and GitHub Copilot workflows to reduce feature delivery time by 40% across development teams.</p>
+            <ul class="project-points">
+              <li>Designed RAG pipeline for codebase Q&amp;A</li>
+              <li>Integrated Copilot into CI/CD review flows</li>
+              <li>Cut boilerplate generation time by 60%</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-label">Career Journey</div>
+      <h2 class="section-title reveal">Work <span>Experience</span></h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Apr 2024 – Present</div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div>
+                <h3>Software Developer</h3>
+                <h4>S&amp;P Global</h4>
+              </div>
+              <div class="timeline-meta">
+                <span><i class="fas fa-map-marker-alt"></i> Gurgaon</span>
+                <span><i class="fas fa-clock"></i> 1.5+ Years</span>
+              </div>
+            </div>
+            <p>Working on CCP (Content Creation Platform) — a large-scale CMS for article management, publishing, and distribution using React JS, Spring Boot, and AWS.</p>
+            <div class="timeline-tags">
+              <span>React JS</span><span>Spring Boot</span><span>AWS</span><span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Aug 2022 – Apr 2024</div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div>
+                <h3>Software Developer</h3>
+                <h4>LTIMindtree</h4>
+              </div>
+              <div class="timeline-meta">
+                <span><i class="fas fa-map-marker-alt"></i> Chennai</span>
+                <span><i class="fas fa-clock"></i> 1.5+ Years</span>
+              </div>
+            </div>
+            <p>Worked on BiDB Customer Onboarding for financial institutions — handling KYC/AML compliance, PII data management, and React-based UI development.</p>
+            <div class="timeline-tags">
+              <span>React</span><span>Mambu</span><span>Spring</span><span>Firebase</span><span>Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jun 2017 – Aug 2022</div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div>
+                <h3>Software Developer</h3>
+                <h4>Aspire Systems</h4>
+              </div>
+              <div class="timeline-meta">
+                <span><i class="fas fa-map-marker-alt"></i> Chennai</span>
+                <span><i class="fas fa-clock"></i> 5+ Years</span>
+              </div>
+            </div>
+            <p>Worked across multiple projects including TEJAS-MPI (Microservices), DeliveryPedia (Project Management), and Banque Du Caire (Core Banking) covering full-stack development and production support.</p>
+            <div class="timeline-tags">
+              <span>Java EE</span><span>Spring Boot</span><span>Microservices</span><span>MongoDB</span><span>Oracle</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications & Awards -->
+      <div class="certs-section">
+        <h3 class="certs-heading reveal">Certifications &amp; Achievements</h3>
+        <div class="certs-grid">
+          <div class="cert-card reveal">
+            <div class="cert-icon cert-gold"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h4>Gen AI White Belt</h4>
+              <p>LTIMindtree Certified</p>
+              <span class="cert-year">2023</span>
+            </div>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon cert-silver"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h4>Gen AI Yellow Belt</h4>
+              <p>LTIMindtree Certified</p>
+              <span class="cert-year">2023</span>
+            </div>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon cert-green"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h4>Gen AI Green Belt</h4>
+              <p>LTIMindtree Certified</p>
+              <span class="cert-year">2024</span>
+            </div>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon cert-award"><i class="fas fa-trophy"></i></div>
+            <div class="cert-body">
+              <h4>GSD Award Q2-24</h4>
+              <p>S&amp;P Global</p>
+              <span class="cert-year">2024</span>
+            </div>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon cert-star"><i class="fas fa-star"></i></div>
+            <div class="cert-body">
+              <h4>Role Star Award</h4>
+              <p>Outstanding Performance</p>
+              <span class="cert-year">2023</span>
+            </div>
+          </div>
+          <div class="cert-card reveal">
+            <div class="cert-icon cert-edu"><i class="fas fa-graduation-cap"></i></div>
+            <div class="cert-body">
+              <h4>B.Tech &mdash; CSE</h4>
+              <p>SRM University &middot; CGPA 9.42</p>
+              <span class="cert-year">2017</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title reveal">Contact <span>Me</span></h2>
+      <p class="contact-subtitle reveal">I'm open to new opportunities. Let's connect!</p>
+
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:avinashtripathy22@gmail.com">avinashtripathy22@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+918124519178">+91 - 8124519178</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Gurgaon, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/avinash-kumar-tripathy-41b28811a/" target="_blank" rel="noopener noreferrer">Avinash Kumar Tripathy</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/avinash</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="name"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="email"/>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Collaboration"/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Hi Avinash, I'd like to discuss..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <p class="footer-logo">AKT<span>.</span></p>
+          <p class="footer-tagline">Full-Stack Developer &middot; Java &middot; React &middot; AI</p>
+          <p class="footer-tagline" style="margin-top:0.4rem;font-size:0.78rem;opacity:0.45">Gurgaon, India &mdash; Open to Remote</p>
+        </div>
+        <div class="footer-nav">
+          <span class="footer-nav-label">Quick Links</span>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-connect">
+          <span class="footer-nav-label">Connect</span>
+          <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/avinash-kumar-tripathy-41b28811a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:avinashtripathy22@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+918124519178" aria-label="Phone"><i class="fas fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Avinash Kumar Tripathy &mdash; All rights reserved.</p>
+        <p class="footer-made">Built with <i class="fas fa-heart"></i>&nbsp;and <i class="fas fa-code"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
